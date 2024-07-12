@@ -1,0 +1,36 @@
+2024-07-11 23:02:25.893 [info] 
+
+
+
+
+2024-07-11 23:02:25.911 [info] Extension host agent started.
+2024-07-11 23:02:26.049 [info] Deleted uninstalled extension from disk postman.postman-for-vscode /home/opc/.vscode-server/extensions/postman.postman-for-vscode-1.0.3
+2024-07-11 23:02:26.358 [info] [<unknown>][36f8c1c6][ExtensionHostConnection] New connection established.
+2024-07-11 23:02:26.360 [info] [<unknown>][9f673096][ManagementConnection] New connection established.
+2024-07-11 23:02:26.603 [info] [<unknown>][36f8c1c6][ExtensionHostConnection] <31059> Launched Extension Host Process.
+2024-07-11 23:04:46.864 [info] [<unknown>][21103b91][ManagementConnection] New connection established.
+2024-07-11 23:04:46.866 [info] [<unknown>][a1d6d75f][ExtensionHostConnection] New connection established.
+2024-07-11 23:04:46.870 [info] [<unknown>][a1d6d75f][ExtensionHostConnection] <31431> Launched Extension Host Process.
+2024-07-11 23:05:10.087 [info] [<unknown>][9f673096][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-11 23:07:25.916 [info] New EH opened, aborting shutdown
+2024-07-11 23:07:25.918 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-11 23:09:47.136 [info] [<unknown>][36f8c1c6][ExtensionHostConnection] <31059> Extension Host Process exited with code: 0, signal: null.
+2024-07-11 23:31:05.204 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 23:31:05.860 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-11 23:31:05.949 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 00:40:42.814 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-07-12 00:40:42.842 [info] Installing extension: ms-azuretools.vscode-docker {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/opc/.vscode-server/extensions/extensions.json","external":"file:///home/opc/.vscode-server/extensions/extensions.json","path":"/home/opc/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-09T22:06:08.253Z"}}
+2024-07-12 00:40:44.411 [info] Extension signature verification result for ms-azuretools.vscode-docker: Success. Executed: true. Duration: 1242ms.
+2024-07-12 00:40:44.708 [info] Extracted extension to file:///home/opc/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1: ms-azuretools.vscode-docker
+2024-07-12 00:40:44.719 [info] Renamed to /home/opc/.vscode-server/extensions/ms-azuretools.vscode-docker-1.29.1
+2024-07-12 00:40:44.774 [info] Extension installed successfully: ms-azuretools.vscode-docker file:///home/opc/.vscode-server/extensions/extensions.json
+2024-07-12 01:22:16.087 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:22:16.102 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:22:16.103 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:22:16.104 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:22:16.106 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:26:35.685 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:41:02.697 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-12 01:41:45.818 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

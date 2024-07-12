@@ -1,0 +1,33 @@
+const {Pool} = require('pg');
+const fs = require('fs')
+
+const sslConfig ={
+    ca:fs.readFile('"C:\Users\dijewell\Desktop\CaCertificate-postgresql-OCI-Project.pub"')
+
+}
+const pool = new Pool({
+    user:'Admin',
+    password:'Jalen22@',
+    host:"150.136.71.117",
+    port:5432,
+    database:'postgres',
+    ssl:sslConfig,
+    max:20,
+    idleTimeoutMillis:30000
+});
+
+async function testConnection(){
+    let client;
+    try {
+        client = await pool.connect();
+        console.log('Connected to DB')
+    }catch(error){
+        console.error("error connecting", error)
+    } finally{
+        if(client){
+            client.release()
+        }
+    }
+}
+
+testConnection();

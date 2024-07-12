@@ -1,0 +1,14 @@
+#services refers to the multiple apps we will run via docker
+services:
+#name the service
+  api:
+  #location of service
+    build: ./server
+  #set port
+    ports:
+      - 3000:3000
+
+  client:
+    build: ./client
+    ports:
+      - 1234:1234

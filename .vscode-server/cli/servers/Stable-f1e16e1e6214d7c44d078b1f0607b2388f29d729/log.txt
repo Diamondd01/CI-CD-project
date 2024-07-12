@@ -1,0 +1,24 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-e08d5c48-2494-4c6a-b07f-25fabde9c4e1
+Extension host agent listening on /tmp/code-e08d5c48-2494-4c6a-b07f-25fabde9c4e1
+
+[23:02:25] 
+
+
+
+
+[23:02:25] Extension host agent started.
+[23:02:26] Deleted uninstalled extension from disk postman.postman-for-vscode /home/opc/.vscode-server/extensions/postman.postman-for-vscode-1.0.3
+[23:02:26] [<unknown>][36f8c1c6][ExtensionHostConnection] New connection established.
+[23:02:26] [<unknown>][9f673096][ManagementConnection] New connection established.
+[23:02:26] [<unknown>][36f8c1c6][ExtensionHostConnection] <31059> Launched Extension Host Process.
+[23:04:46] [<unknown>][21103b91][ManagementConnection] New connection established.
+[23:04:46] [<unknown>][a1d6d75f][ExtensionHostConnection] New connection established.
+[23:04:46] [<unknown>][a1d6d75f][ExtensionHostConnection] <31431> Launched Extension Host Process.
+[23:05:10] [<unknown>][9f673096][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

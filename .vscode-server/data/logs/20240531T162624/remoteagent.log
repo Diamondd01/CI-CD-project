@@ -1,0 +1,42 @@
+2024-05-31 16:26:24.288 [info] 
+
+
+
+
+2024-05-31 16:26:24.306 [info] Extension host agent started.
+2024-05-31 16:26:24.830 [info] [<unknown>][241f1a9e][ManagementConnection] New connection established.
+2024-05-31 16:26:24.834 [info] [<unknown>][8bbd3d67][ExtensionHostConnection] New connection established.
+2024-05-31 16:26:24.994 [info] [<unknown>][8bbd3d67][ExtensionHostConnection] <1795923> Launched Extension Host Process.
+2024-05-31 16:26:30.301 [info] Getting Manifest... postman.postman-for-vscode
+2024-05-31 16:26:30.559 [info] Installing extension: postman.postman-for-vscode
+2024-05-31 16:26:40.287 [info] Extension signature is verified: postman.postman-for-vscode
+2024-05-31 16:26:48.267 [info] Extracted extension to file:///home/opc/.vscode-server/extensions/postman.postman-for-vscode-1.0.3: postman.postman-for-vscode
+2024-05-31 16:26:48.296 [info] Renamed to /home/opc/.vscode-server/extensions/postman.postman-for-vscode-1.0.3
+2024-05-31 16:26:48.301 [info] Extracting extension completed. postman.postman-for-vscode
+2024-05-31 16:26:48.312 [info] Extension installed successfully: postman.postman-for-vscode
+2024-05-31 16:26:48.317 [info] Marked extension as uninstalled postman.postman-for-vscode-1.0.1
+2024-05-31 16:31:24.309 [info] New EH opened, aborting shutdown
+2024-05-31 17:15:09.528 [info] [<unknown>][1faed8a4][ManagementConnection] New connection established.
+2024-05-31 17:15:09.533 [info] [<unknown>][e622eed8][ExtensionHostConnection] New connection established.
+2024-05-31 17:15:09.535 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/server/node/server.main.js:191:6058)
+    at process.emit (node:events:517:28)
+2024-05-31 17:15:09.546 [info] [<unknown>][e622eed8][ExtensionHostConnection] <1797717> Launched Extension Host Process.
+2024-05-31 17:18:10.725 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:32471)
+    at D.updateTitle (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:27632)
+    at j.<computed> (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:47:22875)
+    at Object.call (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5137)
+    at l.s (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5145)
+    at l.q (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4647)
+    at n.value (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at t.y (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:665)
+    at t.fire (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:29:882)
+    at process.ue (/home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10030)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-05-31 17:20:09.763 [info] [<unknown>][8bbd3d67][ExtensionHostConnection] <1795923> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 20:19:59.964 [info] [<unknown>][e622eed8][ExtensionHostConnection] <1797717> Extension Host Process exited with code: 0, signal: null.
+2024-05-31 20:19:59.970 [info] Last EH closed, waiting before shutting down
+2024-05-31 20:24:59.974 [info] Last EH closed, shutting down

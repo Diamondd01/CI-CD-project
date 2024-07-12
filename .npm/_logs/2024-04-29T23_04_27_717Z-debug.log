@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'http-server' ]
+2 info using npm@6.14.11
+3 info using node@v10.24.0
+4 verbose npm-session 4c4f1f3c16358df8
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/http-server 17ms (from cache)
+8 silly pacote tag manifest for http-server@latest fetched in 29ms
+9 timing stage:loadCurrentTree Completed in 49ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule http-server@14.1.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/opener 219ms (from cache)
+18 http fetch GET 304 https://registry.npmjs.org/corser 232ms (from cache)
+19 http fetch GET 304 https://registry.npmjs.org/chalk 235ms (from cache)
+20 http fetch GET 304 https://registry.npmjs.org/minimist 224ms (from cache)
+21 http fetch GET 304 https://registry.npmjs.org/basic-auth 237ms (from cache)
+22 silly pacote range manifest for opener@^1.5.1 fetched in 227ms
+23 silly resolveWithNewModule opener@1.5.2 checking installable status
+24 http fetch GET 304 https://registry.npmjs.org/mime 231ms (from cache)
+25 silly pacote range manifest for corser@^2.0.1 fetched in 243ms
+26 silly resolveWithNewModule corser@2.0.1 checking installable status
+27 http fetch GET 304 https://registry.npmjs.org/http-proxy 236ms (from cache)
+28 http fetch GET 304 https://registry.npmjs.org/html-encoding-sniffer 239ms (from cache)
+29 silly pacote range manifest for chalk@^4.1.2 fetched in 248ms
+30 silly resolveWithNewModule chalk@4.1.2 checking installable status
+31 silly pacote range manifest for minimist@^1.2.6 fetched in 237ms
+32 silly resolveWithNewModule minimist@1.2.8 checking installable status
+33 silly pacote range manifest for basic-auth@^2.0.1 fetched in 254ms
+34 silly resolveWithNewModule basic-auth@2.0.1 checking installable status
+35 http fetch GET 304 https://registry.npmjs.org/he 254ms (from cache)
+36 silly pacote range manifest for mime@^1.6.0 fetched in 248ms
+37 silly resolveWithNewModule mime@1.6.0 checking installable status
+38 silly pacote range manifest for http-proxy@^1.18.1 fetched in 252ms
+39 silly resolveWithNewModule http-proxy@1.18.1 checking installable status
+40 silly pacote range manifest for html-encoding-sniffer@^3.0.0 fetched in 261ms
+41 silly resolveWithNewModule html-encoding-sniffer@3.0.0 checking installable status
+42 silly pacote range manifest for he@^1.2.0 fetched in 263ms
+43 silly resolveWithNewModule he@1.2.0 checking installable status
+44 http fetch GET 304 https://registry.npmjs.org/portfinder 253ms (from cache)
+45 silly pacote range manifest for portfinder@^1.0.28 fetched in 255ms
+46 silly resolveWithNewModule portfinder@1.0.32 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/secure-compare 56ms (from cache)
+48 silly pacote version manifest for secure-compare@3.0.1 fetched in 59ms
+49 silly resolveWithNewModule secure-compare@3.0.1 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/url-join 46ms (from cache)
+51 silly pacote range manifest for url-join@^4.0.1 fetched in 48ms
+52 silly resolveWithNewModule url-join@4.0.1 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/union 57ms (from cache)
+54 silly pacote range manifest for union@~0.5.0 fetched in 59ms
+55 silly resolveWithNewModule union@0.5.0 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/safe-buffer 33ms (from cache)
+57 silly pacote version manifest for safe-buffer@5.1.2 fetched in 38ms
+58 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+59 http fetch GET 304 https://registry.npmjs.org/ansi-styles 37ms (from cache)
+60 silly pacote range manifest for ansi-styles@^4.1.0 fetched in 40ms
+61 silly resolveWithNewModule ansi-styles@4.3.0 checking installable status
+62 http fetch GET 304 https://registry.npmjs.org/supports-color 40ms (from cache)
+63 silly pacote range manifest for supports-color@^7.1.0 fetched in 42ms
+64 silly resolveWithNewModule supports-color@7.2.0 checking installable status
+65 http fetch GET 304 https://registry.npmjs.org/color-convert 48ms (from cache)
+66 silly pacote range manifest for color-convert@^2.0.1 fetched in 49ms
+67 silly resolveWithNewModule color-convert@2.0.1 checking installable status
+68 http fetch GET 304 https://registry.npmjs.org/color-name 27ms (from cache)
+69 silly pacote range manifest for color-name@~1.1.4 fetched in 29ms
+70 silly resolveWithNewModule color-name@1.1.4 checking installable status
+71 http fetch GET 304 https://registry.npmjs.org/has-flag 31ms (from cache)
+72 silly pacote range manifest for has-flag@^4.0.0 fetched in 32ms
+73 silly resolveWithNewModule has-flag@4.0.0 checking installable status
+74 http fetch GET 304 https://registry.npmjs.org/whatwg-encoding 27ms (from cache)
+75 silly pacote range manifest for whatwg-encoding@^2.0.0 fetched in 28ms
+76 silly resolveWithNewModule whatwg-encoding@2.0.0 checking installable status
+77 http fetch GET 304 https://registry.npmjs.org/iconv-lite 33ms (from cache)
+78 silly pacote version manifest for iconv-lite@0.6.3 fetched in 35ms
+79 silly resolveWithNewModule iconv-lite@0.6.3 checking installable status
+80 http fetch GET 304 https://registry.npmjs.org/safer-buffer 28ms (from cache)
+81 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3.0.0 fetched in 29ms
+82 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+83 http fetch GET 304 https://registry.npmjs.org/eventemitter3 61ms (from cache)
+84 silly pacote range manifest for eventemitter3@^4.0.0 fetched in 66ms
+85 silly resolveWithNewModule eventemitter3@4.0.7 checking installable status
+86 http fetch GET 304 https://registry.npmjs.org/requires-port 68ms (from cache)
+87 http fetch GET 304 https://registry.npmjs.org/follow-redirects 68ms (from cache)
+88 silly pacote range manifest for requires-port@^1.0.0 fetched in 70ms
+89 silly resolveWithNewModule requires-port@1.0.0 checking installable status
+90 silly pacote range manifest for follow-redirects@^1.0.0 fetched in 73ms
+91 silly resolveWithNewModule follow-redirects@1.15.6 checking installable status
+92 http fetch GET 304 https://registry.npmjs.org/mkdirp 29ms (from cache)
+93 silly pacote range manifest for mkdirp@^0.5.6 fetched in 35ms
+94 silly resolveWithNewModule mkdirp@0.5.6 checking installable status
+95 http fetch GET 304 https://registry.npmjs.org/debug 40ms (from cache)
+96 silly pacote range manifest for debug@^3.2.7 fetched in 45ms
+97 silly resolveWithNewModule debug@3.2.7 checking installable status
+98 http fetch GET 304 https://registry.npmjs.org/async 51ms (from cache)
+99 silly pacote range manifest for async@^2.6.4 fetched in 55ms
+100 silly resolveWithNewModule async@2.6.4 checking installable status
+101 http fetch GET 304 https://registry.npmjs.org/lodash 32ms (from cache)
+102 silly pacote range manifest for lodash@^4.17.14 fetched in 34ms
+103 silly resolveWithNewModule lodash@4.17.21 checking installable status
+104 http fetch GET 304 https://registry.npmjs.org/ms 26ms (from cache)
+105 silly pacote range manifest for ms@^2.1.1 fetched in 27ms
+106 silly resolveWithNewModule ms@2.1.3 checking installable status
+107 http fetch GET 304 https://registry.npmjs.org/qs 33ms (from cache)
+108 silly pacote range manifest for qs@^6.4.0 fetched in 36ms
+109 silly resolveWithNewModule qs@6.12.1 checking installable status
+110 http fetch GET 304 https://registry.npmjs.org/side-channel 25ms (from cache)
+111 silly pacote range manifest for side-channel@^1.0.6 fetched in 26ms
+112 silly resolveWithNewModule side-channel@1.0.6 checking installable status
+113 http fetch GET 304 https://registry.npmjs.org/get-intrinsic 46ms (from cache)
+114 silly pacote range manifest for get-intrinsic@^1.2.4 fetched in 50ms
+115 silly resolveWithNewModule get-intrinsic@1.2.4 checking installable status
+116 http fetch GET 304 https://registry.npmjs.org/call-bind 59ms (from cache)
+117 http fetch GET 304 https://registry.npmjs.org/object-inspect 59ms (from cache)
+118 silly pacote range manifest for call-bind@^1.0.7 fetched in 62ms
+119 silly resolveWithNewModule call-bind@1.0.7 checking installable status
+120 silly pacote range manifest for object-inspect@^1.13.1 fetched in 67ms
+121 silly resolveWithNewModule object-inspect@1.13.1 checking installable status
+122 http fetch GET 304 https://registry.npmjs.org/es-errors 71ms (from cache)
+123 silly pacote range manifest for es-errors@^1.3.0 fetched in 71ms
+124 silly resolveWithNewModule es-errors@1.3.0 checking installable status
+125 http fetch GET 304 https://registry.npmjs.org/es-define-property 36ms (from cache)
+126 silly pacote range manifest for es-define-property@^1.0.0 fetched in 38ms
+127 silly resolveWithNewModule es-define-property@1.0.0 checking installable status
+128 http fetch GET 304 https://registry.npmjs.org/function-bind 40ms (from cache)
+129 silly pacote range manifest for function-bind@^1.1.2 fetched in 42ms
+130 silly resolveWithNewModule function-bind@1.1.2 checking installable status
+131 http fetch GET 304 https://registry.npmjs.org/set-function-length 44ms (from cache)
+132 silly pacote range manifest for set-function-length@^1.2.1 fetched in 45ms
+133 silly resolveWithNewModule set-function-length@1.2.2 checking installable status
+134 http fetch GET 304 https://registry.npmjs.org/has-proto 36ms (from cache)
+135 silly pacote range manifest for has-proto@^1.0.1 fetched in 39ms
+136 silly resolveWithNewModule has-proto@1.0.3 checking installable status
+137 http fetch GET 304 https://registry.npmjs.org/has-symbols 38ms (from cache)
+138 silly pacote range manifest for has-symbols@^1.0.3 fetched in 39ms
+139 silly resolveWithNewModule has-symbols@1.0.3 checking installable status
+140 http fetch GET 304 https://registry.npmjs.org/hasown 40ms (from cache)
+141 silly pacote range manifest for hasown@^2.0.0 fetched in 41ms
+142 silly resolveWithNewModule hasown@2.0.2 checking installable status
+143 http fetch GET 304 https://registry.npmjs.org/gopd 40ms (from cache)
+144 silly pacote range manifest for gopd@^1.0.1 fetched in 42ms
+145 silly resolveWithNewModule gopd@1.0.1 checking installable status
+146 http fetch GET 304 https://registry.npmjs.org/has-property-descriptors 41ms (from cache)
+147 silly pacote range manifest for has-property-descriptors@^1.0.2 fetched in 42ms
+148 silly resolveWithNewModule has-property-descriptors@1.0.2 checking installable status
+149 http fetch GET 304 https://registry.npmjs.org/define-data-property 53ms (from cache)
+150 silly pacote range manifest for define-data-property@^1.1.4 fetched in 54ms
+151 silly resolveWithNewModule define-data-property@1.1.4 checking installable status
+152 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1138ms
+153 timing stage:loadIdealTree Completed in 1169ms
+154 silly currentTree lib
+155 silly idealTree lib
+155 silly idealTree └─┬ http-server@14.1.1
+155 silly idealTree   ├── ansi-styles@4.3.0
+155 silly idealTree   ├── async@2.6.4
+155 silly idealTree   ├── basic-auth@2.0.1
+155 silly idealTree   ├── call-bind@1.0.7
+155 silly idealTree   ├── chalk@4.1.2
+155 silly idealTree   ├── color-convert@2.0.1
+155 silly idealTree   ├── color-name@1.1.4
+155 silly idealTree   ├── corser@2.0.1
+155 silly idealTree   ├── debug@3.2.7
+155 silly idealTree   ├── define-data-property@1.1.4
+155 silly idealTree   ├── es-define-property@1.0.0
+155 silly idealTree   ├── es-errors@1.3.0
+155 silly idealTree   ├── eventemitter3@4.0.7
+155 silly idealTree   ├── follow-redirects@1.15.6
+155 silly idealTree   ├── function-bind@1.1.2
+155 silly idealTree   ├── get-intrinsic@1.2.4
+155 silly idealTree   ├── gopd@1.0.1
+155 silly idealTree   ├── has-flag@4.0.0
+155 silly idealTree   ├── has-property-descriptors@1.0.2
+155 silly idealTree   ├── has-proto@1.0.3
+155 silly idealTree   ├── has-symbols@1.0.3
+155 silly idealTree   ├── hasown@2.0.2
+155 silly idealTree   ├── he@1.2.0
+155 silly idealTree   ├── html-encoding-sniffer@3.0.0
+155 silly idealTree   ├── http-proxy@1.18.1
+155 silly idealTree   ├── iconv-lite@0.6.3
+155 silly idealTree   ├── lodash@4.17.21
+155 silly idealTree   ├── mime@1.6.0
+155 silly idealTree   ├── minimist@1.2.8
+155 silly idealTree   ├── mkdirp@0.5.6
+155 silly idealTree   ├── ms@2.1.3
+155 silly idealTree   ├── object-inspect@1.13.1
+155 silly idealTree   ├── opener@1.5.2
+155 silly idealTree   ├── portfinder@1.0.32
+155 silly idealTree   ├── qs@6.12.1
+155 silly idealTree   ├── requires-port@1.0.0
+155 silly idealTree   ├── safe-buffer@5.1.2
+155 silly idealTree   ├── safer-buffer@2.1.2
+155 silly idealTree   ├── secure-compare@3.0.1
+155 silly idealTree   ├── set-function-length@1.2.2
+155 silly idealTree   ├── side-channel@1.0.6
+155 silly idealTree   ├── supports-color@7.2.0
+155 silly idealTree   ├── union@0.5.0
+155 silly idealTree   ├── url-join@4.0.1
+155 silly idealTree   └── whatwg-encoding@2.0.0
+156 silly install generateActionsToTake
+157 warn checkPermissions Missing write access to /usr/local/lib
+158 timing stage:rollbackFailedOptional Completed in 0ms
+159 timing stage:runTopLevelLifecycles Completed in 1229ms
+160 warn notsup Unsupported engine for http-server@14.1.1: wanted: {"node":">=12"} (current: {"node":"10.24.0","npm":"6.14.11"})
+161 warn notsup Not compatible with your version of node/npm: http-server@14.1.1
+162 verbose notsup Not compatible with your version of node/npm: http-server@14.1.1
+162 verbose notsup Required: {"node":">=12"}
+162 verbose notsup Actual:   {"npm":"6.14.11","node":"10.24.0"}
+163 warn notsup Unsupported engine for html-encoding-sniffer@3.0.0: wanted: {"node":">=12"} (current: {"node":"10.24.0","npm":"6.14.11"})
+164 warn notsup Not compatible with your version of node/npm: html-encoding-sniffer@3.0.0
+165 verbose notsup Not compatible with your version of node/npm: html-encoding-sniffer@3.0.0
+165 verbose notsup Required: {"node":">=12"}
+165 verbose notsup Actual:   {"npm":"6.14.11","node":"10.24.0"}
+166 warn notsup Unsupported engine for whatwg-encoding@2.0.0: wanted: {"node":">=12"} (current: {"node":"10.24.0","npm":"6.14.11"})
+167 warn notsup Not compatible with your version of node/npm: whatwg-encoding@2.0.0
+168 verbose notsup Not compatible with your version of node/npm: whatwg-encoding@2.0.0
+168 verbose notsup Required: {"node":">=12"}
+168 verbose notsup Actual:   {"npm":"6.14.11","node":"10.24.0"}
+169 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+170 verbose cwd /home/opc
+171 verbose Linux 5.15.0-205.149.5.1.el8uek.aarch64
+172 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "http-server"
+173 verbose node v10.24.0
+174 verbose npm  v6.14.11
+175 error code EACCES
+176 error syscall access
+177 error path /usr/local/lib
+178 error errno -13
+179 error Error: EACCES: permission denied, access '/usr/local/lib'
+179 error  { [Error: EACCES: permission denied, access '/usr/local/lib']
+179 error   stack:
+179 error    'Error: EACCES: permission denied, access \'/usr/local/lib\'',
+179 error   errno: -13,
+179 error   code: 'EACCES',
+179 error   syscall: 'access',
+179 error   path: '/usr/local/lib' }
+180 error The operation was rejected by your operating system.
+180 error It is likely you do not have the permissions to access this file as the current user
+180 error
+180 error If you believe this might be a permissions issue, please double-check the
+180 error permissions of the file and its containing directories, or try running
+180 error the command again as root/Administrator.
+181 verbose exit [ -13, true ]

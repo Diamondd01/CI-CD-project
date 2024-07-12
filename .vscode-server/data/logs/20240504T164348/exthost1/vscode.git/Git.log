@@ -1,0 +1,26 @@
+2024-05-04 16:43:57.693 [info] Log level: Info
+2024-05-04 16:43:57.693 [info] Validating found git in: "git"
+2024-05-04 16:43:57.693 [info] Using git "2.39.3" from "git"
+2024-05-04 16:43:57.693 [info] > git rev-parse --show-toplevel [277ms]
+2024-05-04 16:43:57.693 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-05-04 16:43:57.693 [info] Open repository: /home/opc/OCI-Project
+2024-05-04 16:43:58.255 [info] > git rev-parse --show-toplevel [177ms]
+2024-05-04 16:43:58.260 [info] > git config --get commit.template [223ms]
+2024-05-04 16:43:58.334 [info] > git rev-parse --show-toplevel [44ms]
+2024-05-04 16:43:58.378 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2024-05-04 16:43:58.412 [info] > git rev-parse --show-toplevel [35ms]
+2024-05-04 16:43:58.621 [info] > git status -z -uall [210ms]
+2024-05-04 16:43:58.621 [info] > git show --textconv :server/app.js [123ms]
+2024-05-04 16:43:58.621 [info] > git ls-files --stage -- /home/opc/OCI-Project/server/app.js [67ms]
+2024-05-04 16:43:58.815 [info] > git check-ignore -v -z --stdin [200ms]
+2024-05-04 16:43:58.822 [info] > git merge-base refs/heads/main refs/remotes/origin/main [100ms]
+2024-05-04 16:43:58.856 [info] > git cat-file -s 03a635c1600194af3f84f9c3587797183ae24427 [194ms]
+2024-05-04 16:43:58.894 [info] > git config --get commit.template [92ms]
+2024-05-04 16:43:58.914 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [59ms]
+2024-05-04 16:43:58.968 [info] > git diff --name-status -z --diff-filter=ADMR 75047e1471969f5f7e4c01f848e9ca8eb550a952...refs/remotes/origin/main [27ms]
+2024-05-04 16:43:58.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-05-04 16:43:59.012 [info] > git status -z -uall [19ms]
+2024-05-04 16:48:09.507 [info] > git check-ignore -v -z --stdin [5ms]
+2024-05-04 16:48:13.312 [info] > git show --textconv :public/index.html [23ms]
+2024-05-04 16:48:13.320 [info] > git ls-files --stage -- /home/opc/OCI-Project/public/index.html [9ms]
+2024-05-04 16:48:13.347 [info] > git cat-file -s 643cac612e99b74fb5abce2ed500d14f35d0780c [3ms]

@@ -1,0 +1,22 @@
+2024-05-31 16:26:36.115 [info] Log level: Info
+2024-05-31 16:26:36.115 [info] Validating found git in: "git"
+2024-05-31 16:26:36.115 [info] Using git "2.39.3" from "git"
+2024-05-31 16:26:36.115 [info] > git rev-parse --show-toplevel [4066ms]
+2024-05-31 16:26:36.384 [info] > git rev-parse --git-dir --git-common-dir [257ms]
+2024-05-31 16:26:36.414 [info] Open repository: /home/opc/OCI-Project
+2024-05-31 16:26:36.603 [info] > git rev-parse --show-toplevel [83ms]
+2024-05-31 16:26:36.617 [info] > git config --get commit.template [134ms]
+2024-05-31 16:26:36.733 [info] > git rev-parse --show-toplevel [78ms]
+2024-05-31 16:26:36.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [88ms]
+2024-05-31 16:26:36.833 [info] > git rev-parse --show-toplevel [35ms]
+2024-05-31 16:26:36.944 [info] > git status -z -uall [46ms]
+2024-05-31 16:26:37.188 [info] > git show --textconv :server/server.js [102ms]
+2024-05-31 16:26:37.189 [info] > git merge-base refs/heads/main refs/remotes/origin/main [199ms]
+2024-05-31 16:26:37.297 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-31 16:26:37.304 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [70ms]
+2024-05-31 16:26:37.360 [info] > git config --get commit.template [171ms]
+2024-05-31 16:26:37.361 [info] > git ls-files --stage -- /home/opc/OCI-Project/server/server.js [227ms]
+2024-05-31 16:26:37.430 [info] > git diff --name-status -z --diff-filter=ADMR e2be48a12a4f90e635260e8997e42afd72e6073f...refs/remotes/origin/main [72ms]
+2024-05-31 16:26:37.568 [info] > git cat-file -s 48d81c1665f49649caecbb0bcb3d8dcfb79d2ebc [139ms]
+2024-05-31 16:26:37.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [83ms]
+2024-05-31 16:26:37.700 [info] > git status -z -uall [26ms]
