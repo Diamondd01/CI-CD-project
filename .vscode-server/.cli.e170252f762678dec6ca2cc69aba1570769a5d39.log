@@ -1,6 +1,0 @@
-Listening on 127.0.0.1:37193
-[2024-05-31 17:15:09] info Disposed of connection to running server.
-looking for token 59e1d4ec-a7fd-4e7f-a850-eff77738fa13, got Some("59e1d4ec-a7fd-4e7f-a850-eff77738fa13")
-[2024-05-31 17:15:09] info Checking /home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/log.txt and /home/opc/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/pid.txt for a running server...
-[2024-05-31 17:15:09] info Found running server (pid=1795863)
-[2024-05-31 17:19:50] info Disposed of connection to running server.

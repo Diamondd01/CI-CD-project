@@ -1,6 +1,0 @@
-Initializing PostgreSQL tools service for the PostgreSQL extension.
-Note: PostgreSQL commands will be available after installing the service.
-
-Platform-------------: linux, aarch64, name=ol, version=8.9
-
-
